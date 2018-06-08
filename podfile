@@ -1,0 +1,11 @@
+project 'SmackChat.xcodeproj'
+
+target 'SmackChat' do
+
+	use_frameworks!
+
+	pod 'Alamofire'
+	pod 'SwiftyJSON'
+	pod 'Socket.IO-Client-Swift'
+
+end
